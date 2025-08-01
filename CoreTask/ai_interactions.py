@@ -3,7 +3,7 @@ import pygame
 from groq import Groq
 from config import GROQ_API_KEY
 import asyncio
-from speech_utils import speak
+from CoreTask.speech_utils import speak
 
 # Initialize pygame mixer
 pygame.mixer.init()

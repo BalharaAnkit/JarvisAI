@@ -3,7 +3,7 @@ import asyncio
 import requests
 import speech_recognition as sr
 from config import YouTube_API_KEY
-from speech_utils import speak
+from CoreTask.speech_utils import speak
 
 # Lock for managing concurrent input tasks
 input_task_lock = asyncio.Lock()

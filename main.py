@@ -5,10 +5,10 @@ import asyncio
 import pygame
 from groq import Groq
 from config import GROQ_API_KEY
-from language_handling import wishMe, selectLanguage
-from command_handling import takeCommand, getTextInput, search_youtube, extract_search_terms
-from ai_interactions import ai, chat_terminal  # Modified import for terminal chat
-from speech_utils import speak
+from CoreTask.language_handling import wishMe, selectLanguage
+from CoreTask.command_handling import takeCommand, getTextInput, search_youtube, extract_search_terms
+from CoreTask.ai_interactions import ai, chat_terminal  # Modified import for terminal chat
+from CoreTask.speech_utils import speak
 
 # Initialize pygame mixer
 pygame.mixer.init()
